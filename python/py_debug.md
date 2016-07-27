@@ -14,16 +14,8 @@ ImportError: No module named 'cv2'
 先执行 export PYTHONPATH="${PYTHONPATH}:/opt/lib/python3.4/dist-packages"
 
 ```
-康勇, [31.05.16 10:56]
 咋样才能让我本地的python3支持cv2？ ubuntu apt-get install pyhon-opencv  ，无python3-opencv
 
-Isaac Ge, [31.05.16 10:57]
-重新编译 OpenCV 3, 让它检测到 Python 3 解释器
-
-康勇, [31.05.16 10:56]
-咋样才能让我本地的python3支持cv2？ ubuntu apt-get install pyhon-opencv  ，无python3-opencv
-
-Isaac Ge, [31.05.16 10:57]
 重新编译 OpenCV 3, 让它检测到 Python 3 解释器
 
 此外还要装 Python 3 的 numpy 库
